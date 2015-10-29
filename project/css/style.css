@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background: url(../images/alhambra-header.jpg) no-repeat fixed 50%;
+	background: url(../images/hidden-edinburgh.jpg) no-repeat fixed 50%;
 	background-size: cover; /*updates the image to be cover size and re-crops to match aspect ratio*/	
 }
 
@@ -68,8 +68,9 @@ a {
 header {
     text-align: center;
     padding: 150px 0;
-    font-family: Courier, Helvetica;
-	color:#EBFFE0;
+    font-family: font-family: Pacifico, cursive;
+    /*font-family: Courier, Helvetica;*/
+	  color:#33001A;
 }
 
 /*PROFILE SECTION*/
@@ -86,7 +87,7 @@ header {
 .profile h1,
 .profile h3,
 .profile h2{
-	font-family: Courier;
+	/*font-family: Courier;*/
 	/*color:#F5F5F0;*/
 }
 
@@ -115,7 +116,7 @@ header {
 /*WORK SECTION*/
 .work-experience h1,
 .work-experience h2{
-	font-family: Courier;
+	/*font-family: Courier;*/
 	color:#F5F5F0;
 }
 
@@ -143,13 +144,13 @@ header {
 
 /*DETAILS*/
 .details {
-	font-family: Courier;	
+	/*font-family: Courier;	*/
 }
 
 /*SKILLS SECTION*/
 .skills{
 	text-align: center;
-  	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/background-1.jpg) no-repeat fixed;
+  	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/Cramond-Falls.jpg) no-repeat fixed;
   	background-size: cover;
   	color:#EBFFE0; 
 }
