@@ -65,12 +65,22 @@ a {
 }
 
 /* HEADER */
-header {
+header{
     text-align: center;
     padding: 150px 0;
-    font-family: font-family: Pacifico, cursive;
+    font-family: "Pacifico", Helvetica cursive;
+    /*font-family: font-family: Pacifico, cursive;*/
     /*font-family: Courier, Helvetica;*/
 	  color:#33001A;
+}
+
+header h1{
+  font-size: 100px;
+}
+
+header h2{
+    font-family: "roboto";
+    color:#CCCCCC;
 }
 
 /*PROFILE SECTION*/
@@ -95,7 +105,11 @@ header {
     border: none;
     display: inline-block;
     padding: 10px 20px;
-    background: #16a085;
+    background: #33001A;
+}
+
+.profile p{
+  font-size: 24pt;
 }
 
  .profile img {
@@ -117,13 +131,13 @@ header {
 .work-experience h1,
 .work-experience h2{
 	/*font-family: Courier;*/
-	color:#F5F5F0;
+	color:#5C3348;
 }
 
 .work-experience h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #5C3348;
 }
 
 .work-experience{
@@ -140,6 +154,11 @@ header {
  .work-experience .description {
      width: 70%;
      float: right;
+ }
+
+ .work-experience img{
+  border-radius: 20%;
+  padding: 10px;
  }
 
 /*DETAILS*/
@@ -169,7 +188,7 @@ header {
 .skills h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #5C3348;
 }
 
 .skills .columns {
@@ -198,7 +217,7 @@ header {
   	line-height: 150px;
   	display: inline-block;
   	padding: 0 10px;
-  	border: 2px solid #16a085;
+  	border: 2px solid #471931;
   	border-radius: 50%;
   	background: black;
 }
@@ -211,13 +230,13 @@ header {
 
 /*EDUCATION SECTION*/
 .education{
- 	background: #FFFFFF;
+ 	background: #CCCCCC;
 }
 
 .education h2{
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #000;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #471931;
 }
 
 /*CONTACT SECTION*/
@@ -225,7 +244,7 @@ header {
 .contact h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #5C3348;
 }
 
 .contact{
@@ -242,9 +261,12 @@ header {
   	font-size: 50px;
 }
 
+
 .contact a{
-	color: #16a085;
-	padding-left: 10%;
+  color: #471931;
+  font-size: 50pt;
+  font-weight: 10;
+
 }
 
 .contact a:hover{
