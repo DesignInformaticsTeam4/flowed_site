@@ -132,18 +132,21 @@ header h2{
 .work-experience h2{
 	/*font-family: Courier;*/
 	color:#5C3348;
+
 }
 
 .work-experience h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
 	color: #5C3348;
+  font-family: "Pacifico", Helvetica cursive;
 }
 
 .work-experience{
 	background: #fefefc;
  	background: rgba(0,0,0,1);
- 	color:#EBFFE0; 
+ 	color:#EBFFE0;
+  font-size: 18pt; 
 }
 
  .work-experience .details {
@@ -159,6 +162,11 @@ header h2{
  .work-experience img{
   border-radius: 20%;
   padding: 10px;
+ }
+
+ .description strong{
+    color:#5C3348;
+    font-size: 20pt;
  }
 
 /*DETAILS*/
@@ -189,6 +197,12 @@ header h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
 	color: #5C3348;
+  font-family: "Pacifico", Helvetica cursive;
+  font-size: 35pt;
+}
+
+.skills h3{
+  font-size: 28pt;
 }
 
 .skills .columns {
@@ -228,6 +242,11 @@ header h2{
   vertical-align: middle;
 }
 
+.skills p{
+  font-size: 18pt;
+  text-align: left;
+}
+
 /*EDUCATION SECTION*/
 .education{
  	background: #CCCCCC;
@@ -237,6 +256,8 @@ header h2{
 	border-bottom: 1px solid #000;
 	margin-bottom: 30px;
 	color: #471931;
+  font-family: "Pacifico", Helvetica cursive;
+  font-size: 35pt;
 }
 
 /*CONTACT SECTION*/
@@ -245,6 +266,8 @@ header h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
 	color: #5C3348;
+  font-family: "Pacifico", Helvetica cursive;
+  font-size: 35pt;
 }
 
 .contact{
